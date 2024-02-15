@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mainmenu"
+    android:background="@drawable/mainmenu">
+
+    <Button
+        android:id="@+id/homeBtn"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:text="HOME"
+        android:background="@color/white"
+        android:translationX="10dp"
+        android:translationY="810dp"/>
+
+    <Button
+        android:id="@+id/bookingBtn"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:text="BOOKING"
+        android:background="@color/white"
+        android:translationX="150dp"
+        android:translationY="810dp"/>
+
+    <Button
+        android:id="@+id/bookingHistory"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:text="HISTORY"
+        android:background="@color/white"
+        android:translationX="290dp"
+        android:translationY="810dp"/>
+
+    <Button
+        android:id="@+id/logOut"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:text="LOG-OUT"
+        android:background="@color/white"
+        android:translationX="260dp"
+        android:translationY="50dp"/>
+</RelativeLayout>

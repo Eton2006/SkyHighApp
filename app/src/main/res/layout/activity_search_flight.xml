@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchFlight"
+    android:background="@drawable/searchflight">
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="170dp"
+        android:layout_height="80dp"
+        android:translationX="120dp"
+        android:translationY="750dp"
+        android:text="SEARCH"
+        />
+    <Spinner
+        android:id="@+id/fromSpinner"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:translationX="210dp"
+        android:translationY="85dp"
+        android:background="@color/white"
+        />
+    <Spinner
+        android:id="@+id/toSpinner"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:translationX="210dp"
+        android:translationY="140dp"
+        android:background="@color/white"
+        />
+
+</RelativeLayout>

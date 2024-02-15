@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Booking"
+    android:background="@drawable/booking">
+
+    <EditText
+        android:id="@+id/passengerName"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:translationX="10dp"
+        android:translationY="140dp"
+        />
+    <EditText
+        android:id="@+id/passengerAge"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:translationX="10dp"
+        android:translationY="570dp"
+        />
+    <Spinner
+        android:id="@+id/passengerType"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:translationX="15dp"
+        android:translationY="260dp"
+        android:background="@color/white"
+        />
+    <Spinner
+        android:id="@+id/gender"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:translationX="15dp"
+        android:translationY="400dp"
+        android:background="@color/white"
+        />
+    <Spinner
+        android:id="@+id/classFlight"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:translationX="15dp"
+        android:translationY="690dp"
+        android:background="@color/white"
+        />
+
+    <Button
+        android:id="@+id/addPassenger"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:text="ADD PASSENGER"
+        android:translationX="30dp"
+        android:translationY="810dp"/>
+
+    <Button
+        android:id="@+id/proceed"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:text="PROCEED"
+        android:translationX="210dp"
+        android:translationY="810dp"/>
+</RelativeLayout>

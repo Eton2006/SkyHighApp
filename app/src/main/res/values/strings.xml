@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SkyHighFinal</string>
+    <string-array name="from">
+        <item>Thailand, Bangkok, BKK</item>
+        <item>Netherlands, Amsterdam, AMS</item>
+    </string-array>
+    <string-array name="to">
+        <item>Singapore, Singapore, SIN</item>
+    </string-array>
+    <string-array name="passengerType">
+        <item>Child</item>
+        <item>Adult</item>
+        <item>Infant</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="classFlight">
+        <item>Premium Economy</item>
+        <item>Economy</item>
+        <item>Business</item>
+        <item>First Class</item>
+    </string-array>
+</resources>

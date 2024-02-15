@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "692039172335",
+    "project_id": "skyhighfinal",
+    "storage_bucket": "skyhighfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692039172335:android:c49810470c53aa9b1c9b1a",
+        "android_client_info": {
+          "package_name": "com.example.skyhighfinal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLq_BRVheToN1bI-NZqyhOCSpQ7-vWlHM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
